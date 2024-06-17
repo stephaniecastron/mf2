@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { proposalRoutingModule } from './proposal-routing.module';
+import { ProposalRoutingModule } from './proposal-routing.module';
 import { ProposalComponent } from './proposal.component';
 
 
@@ -9,7 +9,7 @@ import { ProposalComponent } from './proposal.component';
   declarations: [ProposalComponent],
   imports: [
     CommonModule,
-    proposalRoutingModule
+    ProposalRoutingModule
   ]
 })
 export class ProposalModule { }
